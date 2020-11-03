@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1">
+        <title>JavaScript Tutorial 4: dynamic HTML</title>
+   
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    
+        <link rel="stylesheet" type="text/css" href="mainstyle.css" />
+
+    </head>
+    <body> 
+        <div class="container">
+            <h3>Compound Interest Rate Calculator</h3>
+            
+            <div class="input-group mb3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Interest 1</span>
+
+                </div>
+                <input type="text" class="form-control" placeholder="0.0" id="rate1">
+            </div>
+
+            <div class="input-group mb3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Interest 2</span>
+                </div>
+                <input type="text" class="form-control" placeholder="0.0" id="rate2">
+            </div>
+
+            <div class="input-group mb3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Interest 3</span>
+
+                </div>
+                <input type="text" class="form-control" placeholder="0.0" id="rate3">
+            </div>
+
+            <div class="input-group mb3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Interest 4</span>
+
+                </div>
+                <input type="text" class="form-control" placeholder="0.0" id="rate4">
+                <div class="input-group-append">
+                    <button class="btn bg-dark text-white" type="button" onclick="getTable()">Calculate</button>
+                </div>
+
+            </div>
+            <div id="interest-tbl"></div>
+        </div>
+
+        <script src="jstut4.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>
